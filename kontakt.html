@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt — Moident Vuzenica</title>
+<meta name="description" content="Kontaktirajte ordinacijo Moident v Vuzenici ali oddajte vlogo za naročilo pregleda.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%234FB3A9' d='M12 2C8 2 5 4.5 5 8.5c0 3 1.2 4.3 1.7 7.3.3 1.8.6 4.2 2 4.2 1.6 0 1.3-3.5 1.8-5 .3-.9.7-1.3 1.5-1.3s1.2.4 1.5 1.3c.5 1.5.2 5 1.8 5 1.4 0 1.7-2.4 2-4.2.5-3 1.7-4.3 1.7-7.3C19 4.5 16 2 12 2z'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="draft-banner">OSNUTEK SPLETNE STRANI — v pregledu, še ni objavljeno (glej BUILD_NOTES.md)</div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#4FB3A9" stroke-width="1.6"><path d="M12 2C8 2 5 4.5 5 8.5c0 3 1.2 4.3 1.7 7.3.3 1.8.6 4.2 2 4.2 1.6 0 1.3-3.5 1.8-5 .3-.9.7-1.3 1.5-1.3s1.2.4 1.5 1.3c.5 1.5.2 5 1.8 5 1.4 0 1.7-2.4 2-4.2.5-3 1.7-4.3 1.7-7.3C19 4.5 16 2 12 2z"/></svg>
+      Moident
+    </a>
+    <button class="nav-toggle" aria-label="Odpri meni" aria-expanded="false"><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Domov</a></li>
+      <li><a href="o-nas.html">O nas</a></li>
+      <li><a href="storitve.html">Storitve</a></li>
+      <li><a href="za-starse.html">Za starše</a></li>
+      <li><a href="kontakt.html" aria-current="page">Kontakt</a></li>
+      <li><a href="kontakt.html" class="nav-cta">Naročite se</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <h1>Kontakt</h1>
+      <p>Pokličite nas, nam pišite ali oddajte vlogo za naročilo pregleda.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container contact-grid">
+      <div>
+        <div class="info-card">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg> Naslov</h3>
+          <p>Mladinska ulica 17<br>2367 Vuzenica, Slovenija<br>(Zdravstveni dom Vuzenica)</p>
+        </div>
+        <div class="info-card">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg> Telefon in e-pošta</h3>
+          <p><a href="tel:028764855">02 876 48 55</a><br><a href="mailto:moident@siol.net">moident@siol.net</a></p>
+        </div>
+        <div class="info-card">
+          <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg> Uradne ure</h3>
+          <p>Urnik ordinacije še ni potrjen s strani ordinacije. <span class="placeholder-tag">V potrditvi</span><br>Pred objavo se preveri dejanski trenutni urnik.</p>
+        </div>
+        <div class="disambiguation">
+          V isti stavbi (Mladinska ulica 17) deluje tudi samostojna zobozdravstvena ordinacija za odrasle, 1A-Dent (dr. Mateja Meh), ki ni povezana z ordinacijo Moident. <span class="placeholder-tag">V potrditvi</span>
+        </div>
+        <div class="map-embed">
+          <iframe
+            src="https://www.openstreetmap.org/export/embed.html?bbox=15.154%2C46.598%2C15.162%2C46.602&layer=mapnik&marker=46.6003%2C15.158"
+            title="Zemljevid — Mladinska ulica 17, Vuzenica" loading="lazy"></iframe>
+        </div>
+      </div>
+
+      <div>
+        <div id="form-success">Hvala! Vaše sporočilo je bilo poslano. (Demo obrazec — oddaja ni povezana z e-pošto; glej BUILD_NOTES.md)</div>
+        <form id="appointment-form">
+          <div class="form-row">
+            <label for="child-name">Ime in priimek otroka</label>
+            <input type="text" id="child-name" name="child-name" required>
+          </div>
+          <div class="form-row">
+            <label for="parent-name">Ime starša/skrbnika</label>
+            <input type="text" id="parent-name" name="parent-name" required>
+          </div>
+          <div class="form-row">
+            <label for="phone">Telefon</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+          <div class="form-row">
+            <label for="email">E-pošta</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-row">
+            <label for="reason">Razlog obiska</label>
+            <input type="text" id="reason" name="reason" placeholder="npr. redni pregled, bolečina, nasvet">
+          </div>
+          <div class="form-row">
+            <label for="message">Sporočilo</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <div class="form-row form-row-checkbox">
+            <input type="checkbox" id="gdpr" name="gdpr" required>
+            <label for="gdpr" style="margin:0; font-weight:400;">Strinjam se z obdelavo osebnih podatkov za namen naročila na pregled (GDPR).</label>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Pošlji vlogo</button>
+          <p class="form-note">To je demo obrazec — oddaja trenutno ni povezana na pravi e-poštni/rezervacijski sistem ordinacije.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-disambiguation">
+      V isti stavbi (Mladinska ulica 17) deluje tudi samostojna zobozdravstvena ordinacija za odrasle, 1A-Dent (dr. Mateja Meh), ki ni povezana z ordinacijo Moident. <span class="placeholder-tag">V potrditvi</span>
+    </div>
+    <div class="footer-grid">
+      <div>
+        <h4>Moident</h4>
+        <p style="color:#D9E0E2;">Mladinsko zobozdravstvo<br>Mladinska ulica 17<br>2367 Vuzenica</p>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="tel:028764855">02 876 48 55</a></li>
+          <li><a href="mailto:moident@siol.net">moident@siol.net</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Urnik</h4>
+        <p style="color:#D9E0E2;">Urnik ordinacije je v potrjevanju. <span class="placeholder-tag">V potrditvi</span></p>
+      </div>
+      <div>
+        <h4>Povezave</h4>
+        <ul>
+          <li><a href="o-nas.html">O nas</a></li>
+          <li><a href="storitve.html">Storitve</a></li>
+          <li><a href="za-starse.html">Za starše</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 Moident — Mladinsko zobozdravstvo Vuzenica. Osnutek spletne strani, ni za javno objavo.</div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+
+# This is a draft/preview build — disallow all crawling until the client
+# (Natalija) signs off and the site is published on a real domain.
+# Remove this Disallow line (or replace with Allow: /) before going live.
