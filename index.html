@@ -3,174 +3,110 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Moident — Mladinsko zobozdravstvo Vuzenica</title>
-<meta name="description" content="Moident je mladinska zobozdravstvena ordinacija v Vuzenici. Dr. Natalija Donaj Magašić skrbi za zdrave nasmehe otrok in mladostnikov že od leta 2002.">
-<meta property="og:title" content="Moident — Mladinsko zobozdravstvo Vuzenica">
-<meta property="og:description" content="Zobozdravstvena nega za otroke in mladostnike v Vuzenici. Naročite se še danes.">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="sl_SI">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%234FB3A9' d='M12 2C8 2 5 4.5 5 8.5c0 3 1.2 4.3 1.7 7.3.3 1.8.6 4.2 2 4.2 1.6 0 1.3-3.5 1.8-5 .3-.9.7-1.3 1.5-1.3s1.2.4 1.5 1.3c.5 1.5.2 5 1.8 5 1.4 0 1.7-2.4 2-4.2.5-3 1.7-4.3 1.7-7.3C19 4.5 16 2 12 2z'/%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
+<title>Moident — 5 predlogov oblikovanja spletne strani</title>
+<meta name="description" content="Pet predlogov oblikovanja nove spletne strani za Moident, mladinsko zobozdravstvo Vuzenica. Osnutek za izbiro pred objavo.">
+<meta name="robots" content="noindex, nofollow">
+<style>
+  :root{
+    --bg:#FAF7F2; --text:#2E3A3F; --muted:#6B7678; --card:#FFFFFF; --border:#E6E1D8;
+    --d1:#4FB3A9; --d2:#1F6FEB; --d3:#AFCBFF; --d4:#C9972E; --d5:#7C5CFC;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0; font-family:-apple-system,"Segoe UI",Inter,Arial,sans-serif; background:var(--bg); color:var(--text); line-height:1.55;}
+  .draft-banner{background:#2E3A3F; color:#fff; text-align:center; padding:0.6rem 1rem; font-size:0.85rem; letter-spacing:0.02em;}
+  .wrap{max-width:1040px; margin:0 auto; padding:2.5rem 1.25rem 4rem;}
+  header.page-head{text-align:center; margin-bottom:2.5rem;}
+  header.page-head h1{font-size:1.9rem; margin:0 0 0.6rem;}
+  header.page-head p{color:var(--muted); max-width:640px; margin:0 auto;}
+  .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1.25rem;}
+  .card{background:var(--card); border:1px solid var(--border); border-radius:10px; padding:1.4rem; display:flex; flex-direction:column; gap:0.6rem;}
+  .swatch{height:8px; border-radius:4px; margin-bottom:0.4rem;}
+  .card h2{margin:0; font-size:1.15rem;}
+  .card p{margin:0; color:var(--muted); font-size:0.92rem; flex:1;}
+  .card a.btn{display:inline-block; text-align:center; padding:0.65rem 1rem; border-radius:6px; background:var(--text); color:#fff; text-decoration:none; font-weight:600; font-size:0.9rem;}
+  .card a.btn:hover{opacity:0.88;}
+  .d1 .swatch{background:linear-gradient(90deg,#4FB3A9,#E8956A);}
+  .d2 .swatch{background:linear-gradient(90deg,#1F6FEB,#9FD8D1);}
+  .d3 .swatch{background:linear-gradient(90deg,#AFCBFF,#FFE9A8);}
+  .d4 .swatch{background:linear-gradient(90deg,#16233F,#C9972E);}
+  .d5 .swatch{background:linear-gradient(90deg,#0B0B0E,#7C5CFC);}
+  section.notes{margin-top:3rem; background:var(--card); border:1px solid var(--border); border-radius:10px; padding:1.6rem 1.8rem;}
+  section.notes h2{margin-top:0; font-size:1.2rem;}
+  section.notes ul{padding-left:1.2rem; color:var(--text);}
+  section.notes li{margin-bottom:0.4rem;}
+  .placeholder-tag{display:inline-block; background:#FDECEC; color:#B23B3B; font-size:0.72rem; font-weight:700; padding:0.1rem 0.45rem; border-radius:4px; margin-left:0.3rem; vertical-align:middle;}
+  footer{text-align:center; color:var(--muted); font-size:0.82rem; margin-top:2.5rem;}
+</style>
 </head>
 <body>
-<div class="draft-banner">OSNUTEK SPLETNE STRANI — v pregledu, še ni objavljeno (glej BUILD_NOTES.md)</div>
+<div class="draft-banner">OSNUTEK — izbirna stran s 5 predlogi oblikovanja, še ni objavljeno</div>
+<div class="wrap">
+  <header class="page-head">
+    <h1>Moident — 5 predlogov spletne strani</h1>
+    <p>Ista vsebina (besedilo, storitve, FAQ, kontakt) v petih različnih vizualnih izvedbah. Oglejte si vse in izberite tisto, ki je najbližje temu, kar si predstavljate za Natalijo — lahko tudi mešamo elemente iz več predlogov.</p>
+  </header>
 
-<header class="site-header">
-  <nav class="nav">
-    <a href="index.html" class="brand">
-      <svg viewBox="0 0 24 24" fill="none" stroke="#4FB3A9" stroke-width="1.6"><path d="M12 2C8 2 5 4.5 5 8.5c0 3 1.2 4.3 1.7 7.3.3 1.8.6 4.2 2 4.2 1.6 0 1.3-3.5 1.8-5 .3-.9.7-1.3 1.5-1.3s1.2.4 1.5 1.3c.5 1.5.2 5 1.8 5 1.4 0 1.7-2.4 2-4.2.5-3 1.7-4.3 1.7-7.3C19 4.5 16 2 12 2z"/></svg>
-      Moident
-    </a>
-    <button class="nav-toggle" aria-label="Odpri meni" aria-expanded="false"><span></span></button>
-    <ul class="nav-links">
-      <li><a href="index.html" aria-current="page">Domov</a></li>
-      <li><a href="o-nas.html">O nas</a></li>
-      <li><a href="storitve.html">Storitve</a></li>
-      <li><a href="za-starse.html">Za starše</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
-      <li><a href="kontakt.html" class="nav-cta">Naročite se</a></li>
-    </ul>
-  </nav>
-</header>
-
-<main>
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-text">
-        <h1>Strokovna zobozdravstvena nega za otroke in mladostnike.</h1>
-        <p style="font-size:1.15rem; color:var(--text);">Mladinsko zobozdravstvo Moident v Vuzenici — vodi ga dr. Natalija Donaj Magašić, dr. dent. med., z izkušnjami od leta 2002.</p>
-        <div class="hero-cta-row">
-          <a href="kontakt.html" class="btn btn-primary">Naročite se</a>
-          <a href="tel:028764855" class="phone-link">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2E3A3F" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            02 876 48 55
-          </a>
-        </div>
-      </div>
-      <div class="hero-visual" aria-hidden="true">
-        <svg viewBox="0 0 200 200"><circle cx="100" cy="100" r="95" fill="#F1EADF"/><path d="M100 50c-28 0-48 18-48 42 0 15 6 21.5 8.5 36.5 1.5 9 3 21 10 21 8 0 6.5-17.5 9-25 1.5-4.5 3.5-6.5 7.5-6.5s6 2 7.5 6.5c2.5 7.5 1 25 9 25 7 0 8.5-12 10-21 2.5-15 8.5-21.5 8.5-36.5 0-24-20-42-48-42z" fill="none" stroke="#4FB3A9" stroke-width="4"/><circle cx="100" cy="100" r="68" fill="none" stroke="#4FB3A9" stroke-width="1" stroke-dasharray="2 6" opacity="0.5"/></svg>
-      </div>
+  <div class="grid">
+    <div class="card d1">
+      <div class="swatch"></div>
+      <h2>1. Toplo &amp; profesionalno</h2>
+      <p>Topla paleta teal/koralna, zaobljene kartice, pisavi Poppins + Inter. Prijazno, a še vedno strokovno — osnovna različica.</p>
+      <a class="btn" href="design-1/index.html">Ogled design 1</a>
     </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <div class="section-header">
-        <h2>Dr. Natalija Donaj Magašić skrbi za nasmehe najmlajših že več kot 20 let</h2>
-        <p>V prijetnem in umirjenem okolju poskrbimo, da obisk zobozdravnika za vašega otroka ne bo strašljiv, temveč enostaven in varen korak k zdravemu nasmehu.</p>
-      </div>
-      <div style="text-align:center;">
-        <a href="o-nas.html" class="btn btn-outline">Spoznajte dr. Natalijo Donaj Magašić</a>
-      </div>
+    <div class="card d2">
+      <div class="swatch"></div>
+      <h2>2. Klinično sveže</h2>
+      <p>Ostri robovi, modra (#1F6FEB) na belem, tanke linije namesto senc, oštevilčen seznam storitev. Zdravstveno-tehnološki, zaupanja vreden videz.</p>
+      <a class="btn" href="design-2/index.html">Ogled design 2</a>
     </div>
-  </section>
-
-  <section class="section-alt">
-    <div class="container">
-      <div class="section-header">
-        <h2>Naše storitve</h2>
-        <p>Celostna zobozdravstvena nega, prilagojena otrokom in mladostnikom.</p>
-      </div>
-      <div class="grid">
-        <div class="card">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2C8 2 5 4.5 5 8.5c0 3 1.2 4.3 1.7 7.3.3 1.8.6 4.2 2 4.2 1.6 0 1.3-3.5 1.8-5 .3-.9.7-1.3 1.5-1.3s1.2.4 1.5 1.3c.5 1.5.2 5 1.8 5 1.4 0 1.7-2.4 2-4.2.5-3 1.7-4.3 1.7-7.3C19 4.5 16 2 12 2z"/></svg>
-          <h3>Redni pregledi in preventiva</h3>
-          <p>Redno spremljanje razvoja zob in zgodnje odkrivanje težav.</p>
-        </div>
-        <div class="card">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2v20M2 12h20"/><circle cx="12" cy="12" r="9"/></svg>
-          <h3>Zdravljenje zobnega kariesa</h3>
-          <p>Skrbno in nežno zdravljenje zobne gnilobe pri otrocih.</p>
-        </div>
-        <div class="card">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9h6v6H9z"/></svg>
-          <h3>Zobne zalivke</h3>
-          <p>Zaščita žvečnih ploskev pred nastankom kariesa.</p>
-        </div>
-        <div class="card">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
-          <h3>Ustna kirurgija</h3>
-          <p>Enostavni kirurški posegi po potrebi.</p>
-        </div>
-        <div class="card">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 12a8 8 0 1016 0 8 8 0 00-16 0z"/><path d="M12 8v4l3 2"/></svg>
-          <h3>Zobna higiena in svetovanje</h3>
-          <p>Nasveti za pravilno nego zob doma, prilagojeni starosti otroka.</p>
-        </div>
-        <div class="card">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9L1.8 18a2 2 0 001.7 3h17a2 2 0 001.7-3L13.7 3.9a2 2 0 00-3.4 0z"/></svg>
-          <h3>Nujna pomoč</h3>
-          <p>Bolečina ali poškodba zoba — pokličite nas čim prej.</p>
-        </div>
-      </div>
-      <div style="text-align:center; margin-top:2rem;">
-        <a href="storitve.html" class="btn btn-outline">Vse storitve</a>
-      </div>
+    <div class="card d3">
+      <div class="swatch"></div>
+      <h2>3. Pastelno prijazno</h2>
+      <p>Mehke pastelne barve (modra/rumena/lila), organske oblike, zaobljeni gumbi. Toplo za starše, a ne otročje.</p>
+      <a class="btn" href="design-3/index.html">Ogled design 3</a>
     </div>
-  </section>
-
-  <section>
-    <div class="container">
-      <div class="trust-bar">
-        <div class="trust-item"><strong>2002</strong><span>Dr. Natalija v praksi</span></div>
-        <div class="trust-item"><strong>2005</strong><span>Ordinacija ustanovljena</span></div>
-        <div class="trust-item"><strong>Vuzenica</strong><span>Zdravstveni dom</span></div>
-      </div>
+    <div class="card d4">
+      <div class="swatch"></div>
+      <h2>4. Premium &amp; zaupanja vredno</h2>
+      <p>Temno modra + zlata, serif naslovi (Fraunces), revijalni razmik. Deluje uveljavljeno in izbrano — za dolgoletno izkušnjo dr. Natalije.</p>
+      <a class="btn" href="design-4/index.html">Ogled design 4</a>
     </div>
-  </section>
-
-  <section class="section-alt">
-    <div class="container" style="text-align:center;">
-      <h2>Naročite pregled za svojega otroka</h2>
-      <p style="max-width:480px; margin:0 auto 1.5rem;">Pokličite nas ali izpolnite kratek obrazec — odgovorimo vam v najkrajšem možnem času.</p>
-      <div class="hero-cta-row" style="justify-content:center;">
-        <a href="kontakt.html" class="btn btn-primary">Naročite se</a>
-        <a href="tel:028764855" class="phone-link">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2E3A3F" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          02 876 48 55
-        </a>
-      </div>
+    <div class="card d5">
+      <div class="swatch"></div>
+      <h2>5. Drzno moderno</h2>
+      <p>Črno-belo z vijolično barvo, velik tipografski poudarek, diagonalni prehodi med sekcijami. Sodobno in opazno, a še vedno resno.</p>
+      <a class="btn" href="design-5/index.html">Ogled design 5</a>
     </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container">
-    <div class="footer-disambiguation">
-      V isti stavbi (Mladinska ulica 17) deluje tudi samostojna zobozdravstvena ordinacija za odrasle, 1A-Dent (dr. Mateja Meh), ki ni povezana z ordinacijo Moident. <span class="placeholder-tag">V potrditvi</span>
-    </div>
-    <div class="footer-grid">
-      <div>
-        <h4>Moident</h4>
-        <p style="color:#D9E0E2;">Mladinsko zobozdravstvo<br>Mladinska ulica 17<br>2367 Vuzenica</p>
-      </div>
-      <div>
-        <h4>Kontakt</h4>
-        <ul>
-          <li><a href="tel:028764855">02 876 48 55</a></li>
-          <li><a href="mailto:moident@siol.net">moident@siol.net</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Urnik</h4>
-        <p style="color:#D9E0E2;">Urnik ordinacije je v potrjevanju. <span class="placeholder-tag">V potrditvi</span></p>
-      </div>
-      <div>
-        <h4>Povezave</h4>
-        <ul>
-          <li><a href="o-nas.html">O nas</a></li>
-          <li><a href="storitve.html">Storitve</a></li>
-          <li><a href="za-starse.html">Za starše</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer-bottom">© 2026 Moident — Mladinsko zobozdravstvo Vuzenica. Osnutek spletne strani, ni za javno objavo.</div>
   </div>
-</footer>
 
-<script src="assets/js/main.js"></script>
+  <section class="notes">
+    <h2>Kaj je enako v vseh petih predlogih</h2>
+    <p>Vsebina je enaka povsod, da je primerjava poštena — razlikuje se le oblikovanje. V vseh petih so iste strani (Domov, O nas, Storitve, Za starše, Kontakt), ista osnutna besedila in isti opozorilni žig <span class="placeholder-tag">V potrditvi</span> na dejstvih, ki jih mora še potrditi Natalija:</p>
+    <ul>
+      <li>Delovni čas ordinacije</li>
+      <li>Natančno besedilo o sosednji ordinaciji 1A-Dent</li>
+      <li>Seznam storitev (uporabljena je bolj verjetna različica — glej raziskavo)</li>
+      <li>Fotografije (trenutno prazna oznaka namesto slike)</li>
+      <li>Domena (moident.si je prosta, a ni registrirana)</li>
+    </ul>
+    <p>Noben od petih predlogov ne vsebuje izmišljenih cen, ur ali storitev — kjer dejstvo ni potrjeno, je to jasno označeno.</p>
+  </section>
+
+  <section class="notes">
+    <h2>Kaj je še pomembno pred prodajo/objavo (SEO in drugo)</h2>
+    <ul>
+      <li><strong>Google Poslovni profil (Google Business Profile)</strong> — brezplačen in verjetno najpomembnejši korak za lokalni SEO v majhnem kraju; trenutno ne obstaja, ga je treba ustvariti in ga povezati z izbrano stranjo.</li>
+      <li><strong>Registracija domene</strong> moident.si (ali druge, če se Natalija odloči drugače) — brez domene strani ni mogoče javno objaviti pod lastnim imenom.</li>
+      <li><strong>Realne fotografije</strong> ordinacije, opreme in po možnosti dr. Natalije — največji manjkajoči element zaupanja; brez njih stran ostane brez galerije.</li>
+      <li><strong>Potrditev dejstev</strong> iz zgornjega seznama (delovni čas, storitve, cenik/napotnice) — brez tega stran ne sme iti v živo.</li>
+      <li><strong>Osnovni lokalni SEO</strong> po izbiri designa: strukturirani podatki (schema.org Dentist/LocalBusiness), hitra mobilna stran (vse 5 predlogov so že hitre statične strani brez ogrodij), povezava do Google Zemljevidov, NAP doslednost (ime/naslov/telefon enak povsod — spletna stran, Google profil, imeniki).</li>
+      <li><strong>SSL/HTTPS in pravi gostovalni ponudnik</strong> ob objavi (GitHub Pages ali podoben brezplačen statični gostitelj zadostuje za tako majhno stran).</li>
+      <li><strong>Soglasje za obdelavo podatkov (GDPR)</strong> na kontaktnem obrazcu — že vgrajeno v vseh 5 predlogih, a obrazec trenutno nima prave zaledne obdelave (potrebna je povezava na e-pošto ali preprost obrazčni servis, ko gre stran v živo).</li>
+      <li><strong>Objava ob pravem času</strong> — <code>robots.txt</code> trenutno blokira vse iskalnike (Disallow: /), namerno, dokler Natalija vsebine ne potrdi. To je treba spremeniti šele ob dejanski objavi.</li>
+    </ul>
+  </section>
+
+  <footer>© 2026 Moident — osnutek, ni za javno objavo. Pripravil Andrej.</footer>
+</div>
 </body>
 </html>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- Domain is a placeholder (moident.si was free per the research spec, not yet registered). Update before going live. -->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://moident.si/</loc></url>
-  <url><loc>https://moident.si/o-nas.html</loc></url>
-  <url><loc>https://moident.si/storitve.html</loc></url>
-  <url><loc>https://moident.si/za-starse.html</loc></url>
-  <url><loc>https://moident.si/kontakt.html</loc></url>
-</urlset>
